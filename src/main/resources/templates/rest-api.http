@@ -1,0 +1,9 @@
+GET http://localhost:8189/resource
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY1ODQ0ODM3NywiaWF0IjoxNjU4NDQ4Mzc3fQ.imrq-CEchHTWUZyoAgBNphLHAwDghDDvYZBj4huXEzU
+
+### Authentication
+POST http://localhost:8189/api/auth
+Content-Type: application/x-www-form-urlencoded
+
+username=user&passeord=user123
